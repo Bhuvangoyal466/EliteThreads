@@ -3,7 +3,7 @@ import "./Navbar.css";
 
 import { useSelector } from "react-redux";
 
-import logo from "../../Assets/logo.png";
+import logo from "../../Assets/logo.jpg";
 import { Link } from "react-router-dom";
 
 import { RiMenu2Line } from "react-icons/ri";
@@ -44,7 +44,8 @@ const Navbar = () => {
         <div className="logoLinkContainer">
           <div className="logoContainer">
             <Link to="/" onClick={scrollToTop}>
-              <img src={logo} alt="Logo" />
+            <img src={logo} alt="Logo" style={{ height: "70px", width: "auto" }} />
+
             </Link>
           </div>
           <div className="linkContainer">

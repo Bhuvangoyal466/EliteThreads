@@ -1,5 +1,5 @@
 .heroMain {
-  background-color: #f4e5e0;
+  background-color: #bde0fe;
   background-image: url("../../../Assets/slideshow-pattern.png");
   background-size: cover;
   padding: 0 160px;
@@ -18,7 +18,7 @@
 .sectionleft p {
   position: relative;
   padding-left: 50px;
-  color: #c22928;
+  color: #000;
   text-transform: uppercase;
   font-weight: 500;
 }
@@ -28,7 +28,7 @@
   display: block;
   width: 35px;
   height: 2px;
-  background-color: #c32929;
+  background-color: #000;
   position: absolute;
   left: 0;
   top: 50%;

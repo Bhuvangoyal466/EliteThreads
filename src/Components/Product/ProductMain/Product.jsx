@@ -182,7 +182,7 @@ const Product = () => {
               <p>8k+ reviews</p>
             </div>
             <div className="productPrice">
-              <h3>$90</h3>
+              <h3>₹5000</h3>
             </div>
             <div className="productDescription">
               <p>
